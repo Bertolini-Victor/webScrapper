@@ -10,17 +10,17 @@ $Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (
 
 ✨ Funcionalidades Principales
 
-Extracción de Múltiples Perfiles: Procesa una lista predefinida de URLs de ORCID.
+* Extracción de Múltiples Perfiles: Procesa una lista predefinida de URLs de ORCID.
 
-Manejo de Contenido Dinámico: Utiliza Puppeteer para esperar a que el contenido cargado por JavaScript esté presente.
+* Manejo de Contenido Dinámico: Utiliza Puppeteer para esperar a que el contenido cargado por JavaScript esté presente.
 
-Aceptación Automática de Cookies: Detecta y acepta el banner de cookies para evitar que interfiera.
+* Aceptación Automática de Cookies: Detecta y acepta el banner de cookies para evitar que interfiera.
 
-Navegación por Paginación: Simula clics en el botón "Siguiente" y espera de forma inteligente a que cargue el nuevo contenido.
+* Navegación por Paginación: Simula clics en el botón "Siguiente" y espera de forma inteligente a que cargue el nuevo contenido.
 
-Extracción Robusta de Datos: Identifica y extrae los siguientes campos para cada paper:
+* Extracción Robusta de Datos: Identifica y extrae los siguientes campos para cada paper:
 
-Año de Publicación (fechaPublicacion)
+     * Año de Publicación (fechaPublicacion)
 
 Título (titulo)
 
