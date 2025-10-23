@@ -87,6 +87,6 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 
 👤 Autor
 
-$$Victor Bertolini Agaras$$
+$Victor Bertolini Agaras$
 
 GitHub: @Bertolini-Victor
