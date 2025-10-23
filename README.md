@@ -4,7 +4,7 @@ Este es un script de Node.js diseñado para extraer automáticamente informació
 
 El objetivo principal de este scraper es recolectar datos actualizados para alimentar el archivo papers.json utilizado en el sitio web del 
 
-$$Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (LFGGBP)$$
+                               ## Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (LFGGBP)
 
 
 ### ✨ Funcionalidades Principales
@@ -87,6 +87,6 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 
 👤 Autor
 
-$Victor Bertolini Agaras$
+*Victor Bertolini Agaras*
 
 GitHub: @Bertolini-Victor
