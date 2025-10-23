@@ -2,9 +2,7 @@
 
 Este es un script de Node.js diseñado para extraer automáticamente información de publicaciones científicas (papers) desde perfiles públicos de ORCID. Utiliza la librería Puppeteer para controlar un navegador headless (Chromium), lo que le permite interactuar con páginas dinámicas construidas con JavaScript y manejar la paginación.
 
-El objetivo principal de este scraper es recolectar datos actualizados para alimentar el archivo papers.json utilizado en el sitio web del 
-
-  ## Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (LFGGBP)
+El objetivo principal de este scraper es recolectar datos actualizados para alimentar el archivo papers.json utilizado en el sitio web del Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (LFGGBP)
 
 
 ### ✨ Funcionalidades Principales
