@@ -36,57 +36,51 @@ $Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (
 
 💻 Tecnologías Utilizadas
 
-Node.js: Entorno de ejecución para JavaScript del lado del servidor.
+* Node.js: Entorno de ejecución para JavaScript del lado del servidor.
 
-Puppeteer: Librería de Node.js para controlar Chrome/Chromium.
+* Puppeteer: Librería de Node.js para controlar Chrome/Chromium.
 
-JavaScript (ES6+): Lenguaje principal, utilizando async/await para manejar operaciones asíncronas.
+* JavaScript (ES6+): Lenguaje principal, utilizando async/await para manejar operaciones asíncronas.
 
 🚀 Cómo Usarlo
 
 Pre-requisitos:
 
-Tener Node.js y npm instalados en tu sistema. Puedes descargarlos desde nodejs.org.
+* Tener Node.js y npm instalados en tu sistema. Puedes descargarlos desde nodejs.org.
 
 Pasos:
 
-Clona el repositorio:
+1. Clona el repositorio:
+~~~
+git clone https://github.com/Bertolini-Victor/webScrapper.git
+~~~
 
-git clone [https://github.com/](https://github.com/)[TU_USUARIO]/[NOMBRE_DEL_REPO_SCRAPER].git
-
-
-
-Navega al directorio:
-
+2. Navega al directorio:
+~~~
 cd [webScrapper]
+~~~
 
-
-
-Instala las dependencias:
-
+3. Instala las dependencias:
+~~~
 npm install
+~~~
 
+*(Esto descargará Puppeteer y la versión de Chromium necesaria)*
 
+4. (Opcional) Edita las URLs: Abre el archivo scraper.js y modifica la lista orcidUrls si necesitas añadir o quitar perfiles.
 
-(Esto descargará Puppeteer y la versión de Chromium necesaria)
-
-(Opcional) Edita las URLs: Abre el archivo scraper.js y modifica la lista orcidUrls si necesitas añadir o quitar perfiles.
-
-Ejecuta el script:
-
+5. Ejecuta el script:
+~~~
 node scraper.js
+~~~
 
-
-
-Revisa los resultados: Una vez que el script termine (puede tardar unos minutos), encontrarás un nuevo archivo JSON con los datos extraídos dentro de la carpeta ./data/.
+6. Revisa los resultados: Una vez que el script termine (puede tardar unos minutos), encontrarás un nuevo archivo JSON con los datos extraídos dentro de la carpeta ./data/.
 
 ⚠️ Notas Importantes
 
-Fragilidad: Los web scrapers dependen de la estructura HTML del sitio objetivo. Si ORCID cambia el diseño de sus páginas, este script podría dejar de funcionar y necesitará ser actualizado.
+* Fragilidad: Los web scrapers dependen de la estructura HTML del sitio objetivo. Si ORCID cambia el diseño de sus páginas, este script podría dejar de funcionar y necesitará ser actualizado.
 
-IDs de Autores: El script extrae los nombres de los autores como una cadena de texto (ej: "Lorch, M; Valverde, C; Agaras, B"). No genera automáticamente los IDs numéricos ([8, 1, 2]) que podrías estar usando en el JSON de tu sitio web principal. Este mapeo de nombres a IDs requiere un paso adicional (manual o con otro script).
-
-Respeto por el Sitio Web: Este script está diseñado para extraer información pública. Evita ejecutarlo con demasiada frecuencia para no sobrecargar los servidores de ORCID.
+* Respeto por el Sitio Web: Este script está diseñado para extraer información pública. Evita ejecutarlo con demasiada frecuencia para no sobrecargar los servidores de ORCID.
 
 📄 Licencia
 
