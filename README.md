@@ -1,4 +1,4 @@
-#Scraper de Publicaciones ORCID con Puppeteer
+#H1Scraper de Publicaciones ORCID con Puppeteer
 
 Este es un script de Node.js diseñado para extraer automáticamente información de publicaciones científicas (papers) desde perfiles públicos de ORCID. Utiliza la librería Puppeteer para controlar un navegador headless (Chromium), lo que le permite interactuar con páginas dinámicas construidas con JavaScript y manejar la paginación.
 
