@@ -22,17 +22,17 @@ $Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (
 
      * Año de Publicación (fechaPublicacion)
 
-Título (titulo)
+     * Título (titulo)
 
-Nombre de la Revista/Publicación (publicadoEn)
+     * Nombre de la Revista/Publicación (publicadoEn)
 
-Enlace DOI (enlace)
+     * Enlace DOI (enlace)
 
-Lista de Autores/Colaboradores (autores)
+     * Lista de Autores/Colaboradores (autores)
 
-Filtrado de Duplicados: Elimina entradas duplicadas basándose en el título y el enlace DOI.
+* Filtrado de Duplicados: Elimina entradas duplicadas basándose en el título y el enlace DOI.
 
-Salida Organizada: Guarda los datos recolectados en un nuevo archivo JSON con marca de tiempo (ej: papers_scraped_YYYY-MM-DD_HH-mm-ss.json) en la carpeta ./data/.
+* Salida Organizada: Guarda los datos recolectados en un nuevo archivo JSON con marca de tiempo (ej: papers_scraped_YYYY-MM-DD_HH-mm-ss.json) en la carpeta ./data/.
 
 💻 Tecnologías Utilizadas
 
