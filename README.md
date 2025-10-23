@@ -4,10 +4,10 @@ Este es un script de Node.js diseñado para extraer automáticamente informació
 
 El objetivo principal de este scraper es recolectar datos actualizados para alimentar el archivo papers.json utilizado en el sitio web del 
 
-$Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (LFGGBP)$
+$$Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (LFGGBP)$$
 
 
-✨ Funcionalidades Principales
+### ✨ Funcionalidades Principales
 
 * Extracción de Múltiples Perfiles: Procesa una lista predefinida de URLs de ORCID.
 
@@ -33,7 +33,7 @@ $Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (
 
 * Salida Organizada: Guarda los datos recolectados en un nuevo archivo JSON con marca de tiempo (ej: papers_scraped_YYYY-MM-DD_HH-mm-ss.json) en la carpeta ./data/.
 
-💻 Tecnologías Utilizadas
+### 💻 Tecnologías Utilizadas
 
 * Node.js: Entorno de ejecución para JavaScript del lado del servidor.
 
@@ -41,7 +41,7 @@ $Laboratorio de Fisiología y Genética de Bacterias Beneficiosas para Plantas (
 
 * JavaScript (ES6+): Lenguaje principal, utilizando async/await para manejar operaciones asíncronas.
 
-🚀 Cómo Usarlo
+### 🚀 Cómo Usarlo
 
 Pre-requisitos:
 
@@ -75,13 +75,13 @@ node scraper.js
 
 6. Revisa los resultados: Una vez que el script termine (puede tardar unos minutos), encontrarás un nuevo archivo JSON con los datos extraídos dentro de la carpeta ./data/.
 
-⚠️ Notas Importantes
+### ⚠️ Notas Importantes
 
 * Fragilidad: Los web scrapers dependen de la estructura HTML del sitio objetivo. Si ORCID cambia el diseño de sus páginas, este script podría dejar de funcionar y necesitará ser actualizado.
 
 * Respeto por el Sitio Web: Este script está diseñado para extraer información pública. Evita ejecutarlo con demasiada frecuencia para no sobrecargar los servidores de ORCID.
 
-📄 Licencia
+### 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
