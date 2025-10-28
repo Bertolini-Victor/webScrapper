@@ -3,12 +3,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 // 2. Lista de perfiles de ORCID a "scrapear"
-const orcidUrls = [
-    'https://orcid.org/0000-0001-8296-1291',
-    'https://orcid.org/0000-0002-3923-8038',
-    'https://orcid.org/0000-0001-8557-7500',
-    'https://orcid.org/0000-0003-1129-9776'
-];
+const orcidUrls = [];
 
 // --- FUNCIÓN PRINCIPAL ASÍNCRONA ---
 async function scrapeData() {
